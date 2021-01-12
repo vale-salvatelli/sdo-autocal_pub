@@ -7,7 +7,7 @@ scales, the Sun's activity also changes. This project uses spatial patterns of f
 a self-calibration of EUV instruments. This approach avoids the need to calibrate against other sources.
 
 To reference the software in this repository please use 
-[DOI: 10.5281/zenodo.4434744](https://zenodo.org/record/4434744#.X_4MIen7R-V).
+[DOI: 10.5281/zenodo.4434743](https://zenodo.org/record/4434744#.X_4MIen7R-V).
 
 The main dataset used for the project can be retrieved from [here](https://github.com/fluxtransport/SDOML) 
 and it is described in [Galvez et al. (2019, ApJS)](https://iopscience.iop.org/article/10.3847/1538-4365/ab1005).
