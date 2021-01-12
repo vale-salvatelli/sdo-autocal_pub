@@ -3,11 +3,13 @@
 The goal of the project is to use data from the Solar Dynamic Observatory (SDO) to expand the capabilities
 of this extreme UV (EUV) telescope and of future solar missions. EUV telescopes operating in space are known to 
 degrade over the course of months to years. The rate of degradation is, a priori, unknown. Over the same time 
-scales, the Sun's activity also changes. This project used spatial patterns of features on the Sun to arrive at 
+scales, the Sun's activity also changes. This project uses spatial patterns of features on the Sun to arrive at 
 a self-calibration of EUV instruments. This approach avoids the need to calibrate against other sources.
 
-The main dataset used for the projects can be retrieved from https://github.com/fluxtransport/SDOML 
+The main dataset used for the project can be retrieved from https://github.com/fluxtransport/SDOML 
 and it is described in Galvez et al. (2019, ApJS): https://iopscience.iop.org/article/10.3847/1538-4365/ab1005.
+The data uncorrected for degradation and used for some analysis in Dos Santos et al. (A&A, 2020) is available at  
+https://zenodo.org/record/4430801#.X_xiP-lKhmE.
 
 # How to use the repo
 
@@ -35,7 +37,7 @@ This repo contains the code developed to produce the paper:
    Accepted for A&A publication.
    https://arxiv.org/abs/2012.14023.
 
-Other publications made under this project:
+Other publications made under the FDL - SDO project:
 * "Auto-Calibration of Remote Sensing Solar Telescopes with Deep Learning"
     NeurIPS 2019 - ML4PS Workshop
     https://arxiv.org/abs/1911.04008
