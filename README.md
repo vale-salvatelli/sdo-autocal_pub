@@ -6,13 +6,15 @@ degrade over the course of months to years. The rate of degradation is, a priori
 scales, the Sun's activity also changes. This project uses spatial patterns of features on the Sun to arrive at 
 a self-calibration of EUV instruments. This approach avoids the need to calibrate against other sources.
 
-The main dataset used for the project can be retrieved from https://github.com/fluxtransport/SDOML 
-and it is described in Galvez et al. (2019, ApJS): https://iopscience.iop.org/article/10.3847/1538-4365/ab1005.
-The data uncorrected for degradation and used for some analysis in Dos Santos et al. (A&A, 2021) is available at  
-https://zenodo.org/record/4430801#.X_xiP-lKhmE.
+To reference the software in this repository please use 
+[DOI: 10.5281/zenodo.4434744](https://zenodo.org/record/4434744#.X_4MIen7R-V).
+
+The main dataset used for the project can be retrieved from [here](https://github.com/fluxtransport/SDOML) 
+and it is described in [Galvez et al. (2019, ApJS)](https://iopscience.iop.org/article/10.3847/1538-4365/ab1005).
+The data uncorrected for degradation is instead available [here](https://zenodo.org/record/4430801#.X_xiP-lKhmE).
+
 
 # How to use the repo
-
 1) Reusable code lives inside src in the form of a package called sdo that can be installed. 
     
     In order to install the package:
@@ -46,5 +48,7 @@ Other publications made under the FDL - SDO project:
     ML4PS NeurIPS 2019 - ML4PS Workshop
     https://arxiv.org/abs/1911.04006
 
-    
+# More on this project 
+This project started as part of the [2019 Frontier Development Lab (FDL) SDO team](https://frontierdevelopmentlab.org/2019-sdo). 
+A description of this program is available [here](https://frontierdevelopmentlab.org/about-1).
 
