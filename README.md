@@ -8,7 +8,7 @@ a self-calibration of EUV instruments. This approach avoids the need to calibrat
 
 The main dataset used for the project can be retrieved from https://github.com/fluxtransport/SDOML 
 and it is described in Galvez et al. (2019, ApJS): https://iopscience.iop.org/article/10.3847/1538-4365/ab1005.
-The data uncorrected for degradation and used for some analysis in Dos Santos et al. (A&A, 2020) is available at  
+The data uncorrected for degradation and used for some analysis in Dos Santos et al. (A&A, 2021) is available at  
 https://zenodo.org/record/4430801#.X_xiP-lKhmE.
 
 # How to use the repo
