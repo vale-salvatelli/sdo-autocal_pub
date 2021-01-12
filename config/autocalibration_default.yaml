@@ -1,0 +1,42 @@
+pipeline-name: AutocalibrationPipeline
+results-path: /fdl_sdo_data/bucket/EXPERIMENT_RESULTS/AUTOCAL
+log-minimal: True
+scaling: True
+batch-size-train: 64
+batch-size-test: 256
+save-interval: 100
+log-interval: 10
+wavelengths:
+  - "0094"
+  - "0131"
+  - "0171"
+  - "0193"
+  - "0211"
+  - "0304"
+  - "0335"
+instruments:
+  - AIA
+  - AIA
+  - AIA
+  - AIA
+  - AIA
+  - AIA
+  - AIA
+actual-resolution: 512
+subsample: 4
+yr-range:
+  - 2012
+  - 2013
+min-step: 60
+h-step: 6
+mnt-step: 1
+day-step: 1
+autocal-min-alpha: 0.01
+autocal-max-alpha: 1.0
+autocal-tolerance: 0.05
+# Note: Thresholding the black values leads to better results; the value
+# 0.09 was also chosen experimentally based on what blocked out most of
+# the 'noise' in the black background outside of the solar disk.
+autocal-threshold-black: True
+autocal-threshold-black-value: 0.09
+autocal-flip-image: True
